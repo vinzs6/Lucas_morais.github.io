@@ -4,8 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem vindo ao meu portfólio de Lucas Morias</title>
+
+
+                <!--Meu CSS-->
+
+        <link rel="stylesheet" href="assets/CSS/styles.css">
+
+
+                <!-- bootstrap -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+                <!--Google Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+                <!--devicon Fonts-->
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
 </head>
 <body>
-    <h1>teste</h1>
+<main id="fundo-pagina">
+
+
+                <!--Card do Perfil-->
+
+        <div class="card float-xxl-start" style="max-width: 27rem;"  id="container-perfil">
+            <br/>
+            <h3 class="list-group-item" align="center"><b>Bem Vindo</b></h3>
+            <br/>
+            <img src="assets/imagens/dd2fbd84-c407-4609-80b3-ef6eda0939b0.jpg" class="card-img-top container" alt="Minha foto">
+            <div class="card-body">
+              <h5 class="card-title">Lucas Morais Rodrigues</h5>
+              <p class="card-text">Estudante de ADS na FATEC. Técnico em Informática formado pela FIEB de Barueri.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" align="center" style="font-weight: bold;"><b>Desenvolvedor Fullstack</b></li>
+              <li class="list-group-item">
+                <div class="container overflow-hidden text-center">
+                    <div class="row gx-5 midias-sociais">
+                      <div class="col">
+                       <div class="p-3"><a href="https://github.com/vinzs6" target="_blank"><ion-icon name="logo-github"></ion-icon></a></div>
+                      </div>
+                      <div class="col">
+                        <div class="p-3"><a href="https://www.linkedin.com/in/lucas-morais-rodrigues-942236360/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></div>
+                      </div>
+                      <div class="col">
+                        <div class="p-3"><a href="https://www.instagram.com/lucasmoraisro/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></div>
+                      </div>
+                    </div>
+                  </div>
+              </li>
+              <br/>
+              <li class="list-group-item" id="Email"><i class="bi bi-envelope"></i><a href="mailto:lucadmorais618@gmail.com?subject=Assunto%20do%20E-mail&body=Olá,%20gostaria%20de%20entrar%20em%20contato.">
+                Lucadmorais618@gmail.com
+              </a></li>
+            </ul>
+            <div class="card-body">
+                <i class="bi bi-copy"></i> <a href="#" class="link" id="copiar"  data-bs-trigger="focus" data-bs-toggle="popover"  data-bs-placement="top" data-bs-content="Copiado" ><span style="font-weight: bold;">Copiar E-mail</span></a>
+            
+              
+            </div>
+          </div>
+
+
+                    <!--Biografia-->
+
+            <section id="container-Biografia">
+                 <h1 id="meu-nome">Lucas Morais Rodrigues</h1>
+                 <p id="titulo"><span class="destaque">Desenvolvedor Fullstack em aprendizagem</span></p>
+                 <p class="descricao">Sou um desenvolvedor especializado em criar paginas inicias e validações, <span class="destaque">gosto de participar tanto no planejamento do projeto</span> quanto no <span class="destaque">desenvolvimento das aplicações e das telas</span></p>
+                <p class="descricao"><span class="destaque">atuo mais como front</span> mas estou estudando e me <span class="destaque">especializando para conseguir atuar perfeitamente no back-end</span>, focando e estudando para atingir meu objetivo para ser um dos melhores na minha área.</p>
+              <a href="https://github.com/vinzs6" id="botao-github"><ion-icon name="share-social-outline"></ion-icon><span >Ver meus projetos</span></a>
+              <h2 id="secao-de-habilidades">Minhas Skills</h2>
+              <p>Conheça as técnologias que domino:</p>
+              <div id="container-das-habilidades">
+              <p class="d-inline-flex gap-1">
+                <a class="btn btn-primary collapsed" data-bs-toggle="collapse" href="#1collapso" role="button" aria-expanded="false" aria-controls="1collapso">Front-END</a>
+                <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#2collapso" aria-expanded="false" aria-controls="2collapso">Back-End</button>
+                <button class="btn btn-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#3collapso" aria-expanded="false" aria-controls="3collapso">Database & Ferramentas</button>
+              </p>
+              <div class="row">
+                <div class="col">
+                  <div class="multi-collapse collapse " id="1collapso" >
+                    <div class=" card-body">
+                        <div class="caixa-de-habilidades">
+                            <p class="titulo-skills">Front-End</p>
+                            <i class="devicon-html5-plain colored"></i>
+                            <i class="devicon-css3-plain colored"></i>
+                            <i class="devicon-javascript-plain colored"></i>
+                    <br/><br/>
+                            <p class="titulo-skills">Front-End Frameworks</p>
+                            <i class="devicon-react-original colored"></i>                  
+                            <i class="devicon-bootstrap-plain colored"></i>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="multi-collapse collapse" id="2collapso">
+                    <div class=" card-body">
+                        <div class="caixa-de-habilidades">
+                            <p class="titulo-skills">Back-End</p>
+                            <i class="devicon-java-plain colored"></i>                               
+                            <i class="devicon-typescript-plain colored"></i>
+                    <br/><br/>
+                            <p class="titulo-skills">Back-End Frameworks</p>             
+                            <i class="devicon-spring-original colored"></i>                  
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="multi-collapse collapse" id="3collapso">
+                      <div class=" card-body">
+                        <div class="caixa-de-habilidades">
+                            <p class="titulo-skills">Databse</p>
+                            <i class="devicon-microsoftsqlserver-plain-wordmark"></i>
+                            <i class="devicon-mysql-original colored"></i>                
+                    <br/><br/>
+                            <p class="titulo-skills">Ferramentas</p>
+                            <i class="devicon-git-plain colored"></i>                                
+                        </div>
+                      </div>
+                   </div>
+                  </div>
+              </div>
+            </div>
+    </section>
+
+
+                    <!--Footer (disponivel apenas no MOBILE)-->
+
+        <footer class="footer-da-pagina ">
+            Site feito usando Bootstrap, Css, Html, Javascript e Bootstrap, além de alguns sites que usei para pegar icones e estilização,
+            <br/>
+     </footer>
+        </main>
+      
+
+                    <!--JS do POPOVER   -->
+
+<script>
+   
+    document.addEventListener('DOMContentLoaded', function () {
+      const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+      popoverTriggerList.forEach(function (popoverTriggerEl) {
+        new bootstrap.Popover(popoverTriggerEl)
+      })
+    });
+
+       
+  document.getElementById("copiar").addEventListener("click", function(e) {
+    e.preventDefault();
+    navigator.clipboard.writeText("lucadmorais618@gmail.com");
+  });
+</script>
+
+
+                <!--Jquery-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+                <!--Bootstrap JS-->
+
+   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+
+
+                <!--Ion Icon-->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
